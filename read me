@@ -1,0 +1,24 @@
+
+Hello!
+To set up my project you can use initializer
+By default my project will run at port 8484
+You should set up folder in you project or computer, where to safe images
+using postman we can make:
+post request by address http://localhost:8484/photos/add, in params set
+  field key -"title", value-"yourTitleofPicture", in body set key"file", value-"chose your file"  in responce you will receive id;
+  this request will put your picture in database the path is in application properties added
+  
+get request by address http://localhost:8484/photos/{id} you will receive a responce of picture by id it will be save in folder, that you will set up in
+application properties in the beggining
+
+post http://localhost:8484/{your text}
+this will set up you text in your picture, ready picture you can get in folder, where you set up in application properties
+
+will be add soon templates of pictures with request
+http://localhost:8484/all
+with choosing teplates from available for now list is empty
+
+Thank you, for using!
+
+
+
