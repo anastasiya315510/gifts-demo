@@ -1,0 +1,4 @@
+2020-12-12 00:03:13,546 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 210919 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-12 00:03:13,548 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-12 00:03:13,549 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-12 00:03:17,262 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 5.056 seconds (JVM running for 5.83)

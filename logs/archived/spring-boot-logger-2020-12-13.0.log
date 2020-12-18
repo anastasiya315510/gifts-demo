@@ -1,0 +1,97 @@
+2020-12-13 16:58:40,637 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 48576 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 16:58:40,638 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 16:58:40,639 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 16:58:44,469 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 5.189 seconds (JVM running for 6.037)
+2020-12-13 16:59:45,570 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /photos/{id} endpoint
+2020-12-13 16:59:47,171 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to getPhoto photo from database
+2020-12-13 17:02:27,890 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-6]  user was entered in  /{text} endpoint
+2020-12-13 17:02:27,890 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-6] enter to createCard 
+2020-12-13 17:03:20,200 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-7]  user was entered in  /{text} endpoint
+2020-12-13 17:03:20,201 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-7] enter to createCard 
+2020-12-13 17:21:37,902 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-9]  user was entered in  /{text} endpoint
+2020-12-13 17:21:37,902 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-9] enter to createCard 
+2020-12-13 17:22:03,211 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-2]  user was entered in  /{text} endpoint
+2020-12-13 17:22:03,211 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-2] enter to createCard 
+2020-12-13 18:54:15,760 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 54577 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 18:54:15,762 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 18:54:15,763 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 18:54:19,564 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 5.149 seconds (JVM running for 5.855)
+2020-12-13 18:54:26,978 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /{text} endpoint
+2020-12-13 18:54:26,978 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to createCard 
+2020-12-13 18:54:26,991 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] error occurred Can't create an ImageInputStream!
+2020-12-13 18:54:34,255 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-4]  user was entered in  /{text} endpoint
+2020-12-13 18:54:34,256 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-4] enter to createCard 
+2020-12-13 18:54:34,256 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-4] error occurred Can't create an ImageInputStream!
+2020-12-13 18:55:18,244 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /photos/{id} endpoint
+2020-12-13 18:55:20,263 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to getPhoto photo from database
+2020-12-13 18:55:33,034 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-5]  user was entered in  /photos/{id} endpoint
+2020-12-13 18:55:34,063 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-5] enter to getPhoto photo from database
+2020-12-13 18:56:33,516 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-6]  user was entered in  /photos/{id} endpoint
+2020-12-13 18:56:34,367 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-6] enter to getPhoto photo from database
+2020-12-13 18:56:42,046 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-7]  user was entered in  /{text} endpoint
+2020-12-13 18:56:42,047 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-7] enter to createCard 
+2020-12-13 18:57:39,888 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 54944 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 18:57:39,889 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 18:57:39,889 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 18:57:43,762 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 5.163 seconds (JVM running for 5.585)
+2020-12-13 18:57:49,952 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /photos/{id} endpoint
+2020-12-13 18:57:51,572 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to getPhoto photo from database
+2020-12-13 18:58:21,925 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /{text} endpoint
+2020-12-13 18:58:21,926 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to createCard 
+2020-12-13 18:59:30,171 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 55198 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 18:59:30,172 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 18:59:30,179 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 18:59:31,658 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 1.788 seconds (JVM running for 2.227)
+2020-12-13 18:59:43,570 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /photos/{id} endpoint
+2020-12-13 18:59:45,030 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to getPhoto photo from database
+2020-12-13 18:59:55,177 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /{text} endpoint
+2020-12-13 18:59:55,178 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to createCard 
+2020-12-13 19:01:39,140 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 55398 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 19:01:39,141 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 19:01:39,142 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 19:01:40,925 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 2.078 seconds (JVM running for 2.401)
+2020-12-13 19:01:47,055 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-2]  user was entered in  /photos/{id} endpoint
+2020-12-13 19:01:48,783 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-2] enter to getPhoto photo from database
+2020-12-13 19:01:53,145 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /{text} endpoint
+2020-12-13 19:01:53,145 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to createCard 
+2020-12-13 19:03:20,179 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 55604 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 19:03:20,181 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 19:03:20,182 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 19:03:21,602 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 1.732 seconds (JVM running for 2.065)
+2020-12-13 19:03:31,127 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /{text} endpoint
+2020-12-13 19:03:31,127 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to createCard 
+2020-12-13 19:03:31,141 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] error occurred Can't create an ImageInputStream!
+2020-12-13 19:03:35,623 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /{text} endpoint
+2020-12-13 19:03:35,623 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to createCard 
+2020-12-13 19:03:35,623 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] error occurred Can't create an ImageInputStream!
+2020-12-13 19:03:43,466 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-4]  user was entered in  /photos/{id} endpoint
+2020-12-13 19:03:45,084 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-4] enter to getPhoto photo from database
+2020-12-13 19:03:48,515 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-5]  user was entered in  /{text} endpoint
+2020-12-13 19:03:48,516 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-5] enter to createCard 
+2020-12-13 19:05:29,332 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 55878 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 19:05:29,334 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 19:05:29,334 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 19:05:30,875 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 1.853 seconds (JVM running for 2.263)
+2020-12-13 19:05:41,680 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-2]  user was entered in  /photos/{id} endpoint
+2020-12-13 19:05:43,158 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-2] enter to getPhoto photo from database
+2020-12-13 19:05:51,213 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /{text} endpoint
+2020-12-13 19:05:51,214 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to createCard 
+2020-12-13 19:06:35,343 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 56059 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 19:06:35,345 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 19:06:35,345 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 19:06:36,893 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 2.212 seconds (JVM running for 2.735)
+2020-12-13 19:06:44,705 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-1]  user was entered in  /{text} endpoint
+2020-12-13 19:06:44,706 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] enter to createCard 
+2020-12-13 19:06:44,718 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-1] error occurred Can't create an ImageInputStream!
+2020-12-13 19:06:54,058 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-3]  user was entered in  /photos/{id} endpoint
+2020-12-13 19:06:55,643 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-3] enter to getPhoto photo from database
+2020-12-13 19:07:02,681 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-4]  user was entered in  /{text} endpoint
+2020-12-13 19:07:02,682 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-4] enter to createCard 
+2020-12-13 19:15:00,013 INFO org.springframework.boot.StartupInfoLogger [main] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 56726 (/home/ester/IdeaProjects/my/demo/target/classes started by ester in /home/ester/IdeaProjects/my/demo)
+2020-12-13 19:15:00,016 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-13 19:15:00,017 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2020-12-13 19:15:01,774 INFO org.springframework.boot.StartupInfoLogger [main] Started DemoApplication in 2.114 seconds (JVM running for 2.942)
+2020-12-13 19:16:56,769 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-2]  user was entered in  /photos/{id} endpoint
+2020-12-13 19:16:58,362 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-2] enter to getPhoto photo from database
+2020-12-13 19:18:05,584 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8585-exec-5]  user was entered in  /{text} endpoint
+2020-12-13 19:18:05,584 INFO com.epam.decorator.decorate_service.service.PhotoService [http-nio-8585-exec-5] enter to createCard 
