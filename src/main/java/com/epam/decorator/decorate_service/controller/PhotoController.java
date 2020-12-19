@@ -2,20 +2,21 @@ package com.epam.decorator.decorate_service.controller;
 
 
 
+import com.epam.decorator.decorate_service.model.EventDTO;
+import com.epam.decorator.decorate_service.model.ImageResponse;
 import com.epam.decorator.decorate_service.model.Photo;
-import com.epam.decorator.decorate_service.model.Response;
-import com.epam.decorator.decorate_service.service.PhotoServiceHandler;
+import com.epam.decorator.decorate_service.serv.PhotoDecorator;
+import com.epam.decorator.decorate_service.serv.PhotoServiceCreator;
+import com.epam.decorator.decorate_service.serv.PhotoServiceReceiver;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
-import java.util.List;
 
 @Slf4j
 @RestController
@@ -23,12 +24,19 @@ public class PhotoController {
     private static final Logger logger = LoggerFactory.getLogger(PhotoController.class);
 
     @Autowired
-    PhotoServiceHandler photoServiceHandler;
+    PhotoServiceReceiver photoServiceReceiver;
+
+
+    @Autowired
+    PhotoServiceCreator photoServiceCreator;
+
+    @Autowired
+    PhotoDecorator photoDecorator;
 
 
     @PostMapping("/photos/add")
     public String addPhoto(@RequestParam String title,
-                           @RequestBody MultipartFile file, Model model)
+                           @RequestBody MultipartFile file)
             throws IOException {
         log.info(" user was entered in  /photos/add endpoint");
         if(title==null|| file.isEmpty()){
@@ -36,38 +44,35 @@ public class PhotoController {
             return "not found";
         }
 
-       return   photoServiceHandler.addPhoto(title, file, model);
+       return   photoServiceCreator.addPhoto(title, file);
 
     }
 
 
     @GetMapping("/photos/{id}")
-    public Response getPhoto(@PathVariable String id, Model model) {
+    public Photo getPhoto(@PathVariable String id) {
         log.info(" user was entered in  /photos/{id} endpoint");
         if(id==null){
             logger.error(" PhotoController, getPhoto() -incorrect value there is no title");
-            return Response.builder().wasCreated(false).build();
 
         }
-    return  photoServiceHandler.getPhoto(id, model);
+    return  photoServiceReceiver.getPhoto(id);
 
     }
 
     @SneakyThrows
-    @PostMapping("/{text}")
-    public Response createCard(@PathVariable String text) {
+    @PostMapping("/{templateId}")
+    public ImageResponse createCard(@PathVariable String templateId,
+                                    @RequestBody EventDTO event) {
         log.info(" user was entered in  /{text} endpoint");
-        if(text==null){
+        if(event==null){
             logger.error("Error was happend PhotoController, createCard() -incorrect value text not found");
-            return Response.builder().wasCreated(false).build();
+
         }
-        return photoServiceHandler.createCard(text);
+        return photoDecorator.createCard(templateId, event);
     }
 
-    @GetMapping("/all")
-    public List<Photo> getAll(){
-        return photoServiceHandler.getAll();
-    }
+
 
 
 }

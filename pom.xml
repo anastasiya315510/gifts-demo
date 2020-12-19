@@ -20,7 +20,19 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jcl -->
+        <!-- https://mvnrepository.com/artifact/org.apache.camel/camel-mongodb-gridfs -->
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-mongodb-gridfs</artifactId>
+            <version>3.7.0</version>
+        </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-devtools</artifactId>
+                <optional>true</optional>
+            </dependency>
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-jcl</artifactId>
@@ -85,6 +97,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+
             </plugin>
         </plugins>
     </build>
