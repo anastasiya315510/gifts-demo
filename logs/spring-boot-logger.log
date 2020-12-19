@@ -169,3 +169,32 @@
 2020-12-19 02:18:25,372 INFO com.epam.decorator.decorate_service.serv.PhotoDecoratorImpl [http-nio-8484-exec-2] set InputStream To Photo  sendToDataBase 
 2020-12-19 02:18:25,858 INFO com.epam.decorator.decorate_service.serv.PhotoDecoratorImpl [http-nio-8484-exec-2] insert To DataBase sendToDataBase 
 2020-12-19 02:18:25,858 INFO com.epam.decorator.decorate_service.serv.PhotoDecoratorImpl [http-nio-8484-exec-2] method Input stream = sendToDataBase
+2020-12-19 13:07:53,303 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 49012 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 13:07:53,304 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 13:07:53,305 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 13:07:57,007 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 5.017 seconds (JVM running for 5.695)
+2020-12-19 13:08:20,387 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8484-exec-1]  user was entered in  /photos/{id} endpoint
+2020-12-19 13:08:20,397 INFO com.epam.decorator.decorate_service.serv.PhotoServiceReceiverImpl [http-nio-8484-exec-1] Method get photo by id
+2020-12-19 13:08:43,469 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8484-exec-3]  user was entered in  /photos/{id} endpoint
+2020-12-19 13:08:43,469 INFO com.epam.decorator.decorate_service.serv.PhotoServiceReceiverImpl [http-nio-8484-exec-3] Method get photo by id
+2020-12-19 13:08:53,277 INFO com.epam.decorator.decorate_service.controller.PhotoController [http-nio-8484-exec-5]  user was entered in  /photos/{id} endpoint
+2020-12-19 13:08:53,278 INFO com.epam.decorator.decorate_service.serv.PhotoServiceReceiverImpl [http-nio-8484-exec-5] Method get photo by id
+2020-12-19 15:21:33,129 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 56565 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 15:21:33,131 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 15:21:33,132 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 15:21:36,971 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 5.37 seconds (JVM running for 6.253)
+2020-12-19 15:32:47,969 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 57487 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 15:32:47,971 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 15:32:47,971 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 15:33:10,069 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 57665 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 15:33:10,071 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 15:33:10,072 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 15:33:12,946 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 3.595 seconds (JVM running for 4.545)
+2020-12-19 16:07:41,713 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 60065 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 16:07:41,716 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 16:07:41,717 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 16:07:45,528 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 5.151 seconds (JVM running for 5.828)
+2020-12-19 16:15:37,919 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoApplication using Java 11.0.9.1 on ester-HP-Pavilion-Laptop-15-cs3xxx with PID 60562 (/home/ester/IdeaProjects/my/gifts-demo/target/classes started by ester in /home/ester/IdeaProjects/my/gifts-demo)
+2020-12-19 16:15:37,921 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-19 16:15:37,921 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2020-12-19 16:15:41,766 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoApplication in 5.191 seconds (JVM running for 5.936)
