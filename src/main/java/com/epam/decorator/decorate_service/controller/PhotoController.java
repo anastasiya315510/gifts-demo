@@ -1,7 +1,6 @@
 package com.epam.decorator.decorate_service.controller;
 
 
-
 import com.epam.decorator.decorate_service.model.EventDTO;
 import com.epam.decorator.decorate_service.model.ImageResponse;
 import com.epam.decorator.decorate_service.model.Photo;
@@ -34,17 +33,18 @@ public class PhotoController {
     PhotoDecorator photoDecorator;
 
 
+
     @PostMapping("/photos/add")
     public String addPhoto(@RequestParam String title,
                            @RequestBody MultipartFile file)
             throws IOException {
         log.info(" user was entered in  /photos/add endpoint");
-        if(title==null|| file.isEmpty()){
+        if (title == null || file.isEmpty()) {
             logger.error(" PhotoController, addPhoto() -incorrect file or title was missed");
             return "not found";
         }
 
-       return   photoServiceCreator.addPhoto(title, file);
+        return photoServiceCreator.addPhoto(title, file);
 
     }
 
@@ -52,11 +52,11 @@ public class PhotoController {
     @GetMapping("/photos/{id}")
     public Photo getPhoto(@PathVariable String id) {
         log.info(" user was entered in  /photos/{id} endpoint");
-        if(id==null){
+        if (id == null) {
             logger.error(" PhotoController, getPhoto() -incorrect value there is no title");
 
         }
-    return  photoServiceReceiver.getPhoto(id);
+        return photoServiceReceiver.getPhoto(id);
 
     }
 
@@ -65,14 +65,12 @@ public class PhotoController {
     public ImageResponse createCard(@PathVariable String templateId,
                                     @RequestBody EventDTO event) {
         log.info(" user was entered in  /{text} endpoint");
-        if(event==null){
+        if (event == null) {
             logger.error("Error was happend PhotoController, createCard() -incorrect value text not found");
 
         }
         return photoDecorator.createCard(templateId, event);
     }
-
-
 
 
 }

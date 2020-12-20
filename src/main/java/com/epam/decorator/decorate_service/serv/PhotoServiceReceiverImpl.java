@@ -18,10 +18,11 @@ public class PhotoServiceReceiverImpl implements PhotoServiceReceiver {
 
     @Autowired
     PhotoRepository photoRepo;
+
     @Override
     public Photo getPhoto(String id) {
         logger.info("Method get photo by id");
-       return photoRepo.findById(id).orElseThrow();
+        return photoRepo.findById(id).orElseThrow(()->new IllegalArgumentException());
 
-        }
+    }
 }

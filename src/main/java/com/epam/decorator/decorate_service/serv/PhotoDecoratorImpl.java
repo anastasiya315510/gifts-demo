@@ -22,7 +22,7 @@ import java.util.Base64;
 
 @Service
 @Slf4j
-public class PhotoDecoratorImpl implements PhotoDecorator, Closeable{
+public class PhotoDecoratorImpl implements PhotoDecorator, Closeable {
     @Value("${name}")
     private String name;
 
@@ -33,13 +33,13 @@ public class PhotoDecoratorImpl implements PhotoDecorator, Closeable{
     public ImageResponse createCard(String templateId, EventDTO event) {
         try {
             log.info("enter to createCard ");
-            Photo photo = photoRepository.findById(templateId).orElseThrow();
+            Photo photo = photoRepository.findById(templateId).get();
             String encode = Base64.getEncoder().encodeToString(photo.getImage().getData());
             byte[] decodedBytes = Base64.getDecoder().decode(encode);
             name = name + templateId + ".jpg";
             FileUtils.writeByteArrayToFile(new File(name), decodedBytes);
             File file = new File(name);
-            BufferedImage image =createImage(file, event);
+            BufferedImage image = createImage(file, event);
 
             ImageIO.write(image, "jpg", new File(name));
             byte[] bytes = sendToDataBase(image);
@@ -53,14 +53,14 @@ public class PhotoDecoratorImpl implements PhotoDecorator, Closeable{
 
     private byte[] sendToDataBase(BufferedImage image) {
 
-        try(ByteArrayOutputStream os = new ByteArrayOutputStream()) {
+        try (ByteArrayOutputStream os = new ByteArrayOutputStream()) {
             System.err.println("DataBase");
             log.info("enter to sendData Base ");
             ImageIO.write(image, "jpg", os);
             log.info("write image sendToDataBase ");
             byte[] bytes = os.toByteArray();
             log.info("convert To Bytes sendToDataBase ");
-            System.out.println("!!!"+bytes);
+            System.out.println("!!!" + bytes);
             InputStream is = new ByteArrayInputStream(bytes);
             log.info("create InputStream sendToDataBase ");
             Photo photo = new Photo();
@@ -81,7 +81,7 @@ public class PhotoDecoratorImpl implements PhotoDecorator, Closeable{
 
     private BufferedImage createImage(File file, EventDTO event) throws IOException {
 
-        BufferedImage image =ImageIO.read(file);
+        BufferedImage image = ImageIO.read(file);
 
 
         Graphics g = image.getGraphics();
@@ -94,15 +94,15 @@ public class PhotoDecoratorImpl implements PhotoDecorator, Closeable{
         FontMetrics metrics = g2d.getFontMetrics(font);
         g2d.drawString(event.getTitle(), 60, 100);
         g2d.drawString(event.getDescription(), 60, 150);
-        if(event.getEventTime()==null){
+        if (event.getEventTime() == null) {
             g2d.drawString("at 15.00", 60, 200);
-        }else{
-        g2d.drawString(event.getEventTime().toString(), 60, 200);
+        } else {
+            g2d.drawString(event.getEventTime().toString(), 60, 200);
         }
         g2d.drawString(event.getEventDate().toString(), 60, 250);
         g2d.dispose();
 
-         return image;
+        return image;
     }
 
     @Override
